@@ -22,10 +22,11 @@ def main():
         content = file.read()
     print(content)
 
-    #This will generate trigrams from given file
+    #Initialize a list to store trigrams and a dictionary to keep track of starting indexes for each trigram
     trigrams = []
     trigramIndexes = defaultdict(list)
 
+    #Loop through content to create trigrams
     for i in range(len(content) - 2):
         trigram = (content[i], content[i+1], content[i+2])
         trigrams.append(trigram)
