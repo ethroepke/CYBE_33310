@@ -1,4 +1,4 @@
-Cyber Security Cryptography Course - 3310 Iowa State
+## Cyber Security Cryptography Course - 3310 Iowa State
 
 Course Overview
 
